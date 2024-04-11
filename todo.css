@@ -1,0 +1,155 @@
+/* Styles for the container */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* Styles for the heading */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #ccc;
+}
+
+/* Styles for the input-div */
+.input-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-div i {
+  font-size: 24px;
+  color: #4abb5b;
+  margin-right: 10px;
+}
+
+.input-div input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ccc;
+  background-color: #333;
+}
+
+.input-div button[type="submit"] {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-div button[type="submit"]:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles for the completed-div */
+.completed-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.completed-left-div {
+  display: flex;
+  align-items: center;
+}
+
+.completed-left-div i {
+  font-size: 24px;
+  color: #ccc;
+  margin-right: 10px;
+}
+
+.completedAll, .uncompleted {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.uncompleted:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Styles for the list_item */
+.list_item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list_item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.list_item li label {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.list_item li input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.list_item li i {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.list_item li:hover i {
+  color: #f00;
+}
+
+/* Styles for the end */
+#end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#task {
+  font-size: 16px;
+  color: #ccc;
+}
+
+#end-right {
+  display: flex;
+  align-items: center;
+}
+
+#end-right p {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#end-right p:hover {
+  text-decoration: underline;
+}
